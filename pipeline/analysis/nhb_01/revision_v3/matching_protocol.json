@@ -1,0 +1,16 @@
+{
+  "seed": 20261025,
+  "replicates": 2000,
+  "AF_fixed": 1,
+  "replace": 0,
+  "sampling": "multivariate hypergeometric on integer study-country-set counts, equivalent to uniform study sampling without replacement",
+  "original_named_handoff_not_available": 1,
+  "comparison_to_document": "Monte Carlo reconstruction; do not force rounded prose example values",
+  "specs": [
+    "count_only",
+    "count_composition",
+    "count_composition_known_country"
+  ],
+  "unknown_country": "Included as empty country sets except known_country specification",
+  "all_support_passed": 1
+}

@@ -1,0 +1,8 @@
+.......Network fixture pair-study rows 1
+...
+----------------------------------------------------------------------
+Ran 10 tests in 0.111s
+
+OK
+FIXED-WINDOW RECONSTRUCTION PASS 2714594 studies; identical v1 counts/ranks
+citations OK

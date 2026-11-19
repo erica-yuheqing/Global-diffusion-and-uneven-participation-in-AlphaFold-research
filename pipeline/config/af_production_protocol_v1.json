@@ -1,0 +1,85 @@
+{
+  "schema_version": "af-production-protocol-v1",
+  "status": "candidate_for_full_run",
+  "based_on": {
+    "pilot_protocol": "v6",
+    "prompt": "config/af_review_prompt_v4.txt",
+    "output_schema": "config/af_review_output_schema_v2.json",
+    "context_policy": "af-context-window-v2"
+  },
+  "agreement_policy": {
+    "version": "af-core-agreement-v1",
+    "primary_core_fields": [
+      "primary_label",
+      "relevance_level",
+      "evidence_level",
+      "af_related_label",
+      "af_use_label",
+      "adoption_eligible",
+      "exclusion_reason",
+      "future_or_hypothetical_only"
+    ],
+    "secondary_fields": [
+      "observed_actions"
+    ],
+    "model_c_trigger": "any_primary_core_field_disagreement",
+    "human_adjudication_trigger": "unresolved_primary_core_disagreement_or_mandatory_evidence_review",
+    "observed_actions_policy": {
+      "retained_in_outputs": true,
+      "schema_and_internal_consistency_validation_required": true,
+      "excluded_from_core_agreement": true,
+      "excluded_from_model_c_trigger": true,
+      "excluded_from_human_adjudication_trigger": true,
+      "excluded_from_primary_accuracy": true,
+      "reported_as_secondary_outcome": true,
+      "metrics": [
+        "exact_set_agreement",
+        "mean_jaccard_similarity"
+      ]
+    }
+  },
+  "evidence_policy": {
+    "no_usable_abstract_or_fulltext": "forced_uncertain_without_api_call",
+    "abstract_only": "model_eligible_with_evidence_level_constraints",
+    "fulltext_context": "model_eligible",
+    "missing_evidence_must_not_be_interpreted_as_non_use": true,
+    "oversize_packet": "If deterministic evidence exceeds 30000 estimated input tokens, do not truncate or send it to an API; record forced uncertain and route the source document to mandatory human review."
+  },
+  "model_plan": {
+    "model_a": {
+      "provider": "deepseek",
+      "endpoint": "https://api.deepseek.com/chat/completions",
+      "api_style": "chat_completions",
+      "model_alias": "deepseek-v4-flash",
+      "thinking": "enabled",
+      "reasoning_effort": "high"
+    },
+    "model_b": {
+      "provider": "zhipu_cn",
+      "endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+      "api_style": "chat_completions",
+      "model_alias": "glm-5.3-flash",
+      "thinking": "enabled",
+      "reasoning_effort": "high"
+    },
+    "model_c": {
+      "provider": "openrouter",
+      "endpoint": "https://openrouter.ai/api/v1/responses",
+      "api_style": "responses",
+      "model_alias": "openai/gpt-5.6-luna",
+      "thinking": "none",
+      "reasoning_effort": "xhigh",
+      "scope": "primary_core_disagreements_only"
+    },
+    "resolved_model_identifier_policy": "Record the model identifier returned by the provider for every attempt; aliases alone are not treated as immutable model versions."
+  },
+  "production_sequence": [
+    "freeze_corpus_and_inputs",
+    "run_model_a_and_model_b",
+    "validate_and_resume_failures",
+    "route_primary_core_disagreements_to_model_c",
+    "route_mandatory_evidence_cases_and_unresolved_core_disagreements_to_human_review",
+    "freeze_consensus_and_secondary_action_metrics"
+  ],
+  "historical_artifact_policy": "Pilot v6 inputs, outputs, validation, adjudication, and human-reference artifacts remain immutable and are not recalculated under this production policy."
+}

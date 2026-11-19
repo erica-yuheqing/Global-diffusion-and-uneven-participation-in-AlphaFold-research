@@ -1,0 +1,62 @@
+[
+  {
+    "archive": "01_figures_and_display_tables.zip",
+    "bytes": 12750100,
+    "sha256": "f8afad070ea7695641bbadf7790a2dabad150bdd18c3ea79465630d9fe2ad32e",
+    "members": 423
+  },
+  {
+    "archive": "02_corpus_and_decisions.zip",
+    "bytes": 138304396,
+    "sha256": "af688d70a6a121982512a0984971d62894de711b88ee9fc943552726a4959d62",
+    "members": 6
+  },
+  {
+    "archive": "03_author_input_shards.zip",
+    "bytes": 1970022303,
+    "sha256": "68d0a1d6849e699afde626dad8158e4926ed610d7eebfe218f13bb371bf4b381",
+    "members": 78
+  },
+  {
+    "archive": "04_source_metadata.zip",
+    "bytes": 2076290,
+    "sha256": "13d08215b9a13a660122e55ed38c31e398e6960a3cf15ca137f58c0d0079cfde",
+    "members": 2
+  },
+  {
+    "archive": "analysis_01_national.zip",
+    "bytes": 1268334,
+    "sha256": "8de9e08a517821e804a05d1e2329e1ebb38c536372c16e5fca58005e3517e500",
+    "members": 167
+  },
+  {
+    "archive": "analysis_02_coverage.zip",
+    "bytes": 99853346,
+    "sha256": "f1d1b17b388c9e961b086437e8b1702155de90f78df72f4f553e1d88c8a1bfa2",
+    "members": 212
+  },
+  {
+    "archive": "analysis_03_continuity.zip",
+    "bytes": 4085695,
+    "sha256": "89a764a9912b038564ca8e444fb3a327e2c7a21a8b430a4637c21b5e19052b4a",
+    "members": 98
+  },
+  {
+    "archive": "analysis_04_authorship.zip",
+    "bytes": 1809151108,
+    "sha256": "4c2d4cea0707a4cf69a01c0ded6d7032d712a9948231009d51f051e507dfe2a2",
+    "members": 437
+  },
+  {
+    "archive": "analysis_05_outcomes_networks.zip",
+    "bytes": 2603977249,
+    "sha256": "f237ae6bd01a93238cfc7e3169a1fd2aa6a35dd734393b49e89b30d91f67c92c",
+    "members": 1406
+  },
+  {
+    "archive": "analysis_06_income.zip",
+    "bytes": 1357720,
+    "sha256": "d60360f1ebe43b92aaa4954a526dfad6f698a3ca18259d7d1f3ee7708fa7d1ef",
+    "members": 26
+  }
+]

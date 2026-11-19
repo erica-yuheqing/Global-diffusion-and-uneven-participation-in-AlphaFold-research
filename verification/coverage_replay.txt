@@ -1,0 +1,14 @@
+............
+----------------------------------------------------------------------
+Ran 12 tests in 0.013s
+
+OK
+Weighting sensitivity computed
+Cohort cross-tabulations and author missingness prepared
+S8 fixed common IDs and grouping cutpoints independently checked
+Continuous model: country_FE_logit_RCS converged; 48010 institutions; 7654 observed AF
+N20 diagnostic main : 6347340 relations
+N20 diagnostic document_type : 6347340 relations
+N20 diagnostic team_size : 6347340 relations
+Independent analytic check PASS; error pp: 3.517186542012496e-13
+coverage OK

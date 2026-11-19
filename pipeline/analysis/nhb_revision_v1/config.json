@@ -1,0 +1,54 @@
+{
+  "schema_version": "nhb-foundations-config-v2",
+  "implementation_version": "1.1.0-action-status-fix",
+  "protocol_version": "1.2.1",
+  "stage": "work_level_foundations_before_study_version_review",
+  "protocol_path": "/historical-workspace/Library/Mobile Documents/iCloud~md~obsidian/Documents/Jaden/01_Projects/IGN/Revision/NHB_06_分析协议_v1.2.1_20261003.md",
+  "inputs": {
+    "master": "analysis/final_v1/out/works_analysis_master.parquet",
+    "master_summary": "analysis/final_v1/out/prepare_summary.json",
+    "final_csv": "fulltext/production/final_database_v2/af_research_database_final_v2.csv",
+    "final_lock": "fulltext/production/final_database_v2/af_research_database_final_v2.lock.json",
+    "authorships": "derived_tables/authorships/*.parquet",
+    "authorship_countries": "derived_tables/authorship_countries/*.parquet",
+    "work_institutions": "derived_tables/work_institutions/*.parquet"
+  },
+  "baseline_years": [2015, 2019],
+  "main_years": [2020, 2025],
+  "included_types": ["article", "review", "preprint"],
+  "confirmed_af": "candidate_reviewed AND af_use_label=yes AND adoption_eligible=yes",
+  "screen_negative": "NOT candidate_reviewed",
+  "action_status_policy": {
+    "unadjudicated_status": "disagreement_unadjudicated",
+    "allowed_reviewed_statuses": [
+      "ab_exact_consensus", "adjudicated", "disagreement_unadjudicated", "not_assessed_insufficient_evidence"
+    ],
+    "unknown_or_missing_reviewed_status": "block_not_silently_drop",
+    "queue_membership": "all_main_confirmed_af_with_unadjudicated_status"
+  },
+  "country_policy": "authorship-first; whole-work institution fallback; distinct countries 1/k",
+  "institution_policy": "distinct institution-country pairs; nested 1/(k*m); unmatched country share retained",
+  "country_codes": "uppercase two-letter observed codes; includes regions and XK; no R&D filter",
+  "institution_identity": "OpenAlex ID; names never automatically merged",
+  "version_policy": "duplicate DOI is a review lead, not an automatic merge; this stage remains work-level",
+  "citation_comparison": ["publication_year", "work_type", "primary_subfield_id"],
+  "citation_snapshot": "week containing 2026-04-03; exact per-record collection times unavailable",
+  "administrative_cutoff": "2025-12-31",
+  "followup_months": 24,
+  "followup_boundaries_for_next_stage": "(first_date, first_date+12 calendar months], (first_date+12, first_date+24 calendar months]",
+  "single_author_leadership_for_next_stage": "first and last separately; union once",
+  "potential_institution_active_rule": {
+    "status": "provisional_for_coverage_review_not_final_denominator",
+    "minimum_observed_baseline_works": 1
+  },
+  "related_expertise_mapping": {
+    "status": "pending_review_after_topic_inventory",
+    "approved_primary_topic_ids": [],
+    "approved_primary_subfield_ids": []
+  },
+  "historical_journal_rank": "optional_bounded_feasibility_check_not_implemented",
+  "resources_and_compute": "not_collected",
+  "minimum_free_disk_gib": 10,
+  "weight_tolerance": 1e-9,
+  "seed_for_future_sampling": 20261003
+}

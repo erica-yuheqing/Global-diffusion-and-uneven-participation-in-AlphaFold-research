@@ -1,0 +1,39 @@
+{
+  "schema_version": "alphafold-seeds-v1",
+  "mention_patterns": [
+    "\\balphafold(?:\\s*[- ]?multimer|\\s*[23])?\\b",
+    "\\balphafold protein structure database\\b",
+    "\\bafdb\\b",
+    "\\bcolabfold\\b",
+    "(?<![A-Za-z0-9])af[23](?![A-Za-z0-9])"
+  ],
+  "seeds": [
+    {
+      "seed_id": "alphafold2_core",
+      "openalex_id": "W3177828909",
+      "dois": ["10.1038/s41586-021-03819-2"],
+      "title_patterns": ["highly accurate protein structure prediction with alphafold"]
+    },
+    {
+      "seed_id": "alphafold3_core",
+      "openalex_id": "W4396721167",
+      "dois": ["10.1038/s41586-024-07487-w"],
+      "title_patterns": ["accurate structure prediction of biomolecular interactions with alphafold 3"]
+    },
+    {
+      "seed_id": "alphafold_db",
+      "openalex_id": "W3211795435",
+      "dois": [],
+      "title_patterns": [
+        "alphafold protein structure database",
+        "massively expanding the structural coverage of protein-sequence space"
+      ]
+    },
+    {
+      "seed_id": "alphafold_multimer_core",
+      "openalex_id": "W3202105508",
+      "dois": ["10.1101/2021.10.04.463034"],
+      "title_patterns": ["protein complex prediction with alphafold-multimer"]
+    }
+  ]
+}

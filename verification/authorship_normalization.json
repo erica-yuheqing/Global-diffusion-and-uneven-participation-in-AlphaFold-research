@@ -1,0 +1,12 @@
+{
+  "authors.parquet": 0,
+  "authors_countries.parquet": 0,
+  "authors_institutions.parquet": 0,
+  "country_groups.parquet": 0,
+  "credit.parquet": 0,
+  "institution_groups.parquet": 0,
+  "pairing_studies.parquet": 0,
+  "primary_studies.parquet": 0,
+  "roles.parquet": 0,
+  "studies.parquet": 0
+}

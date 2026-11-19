@@ -1,0 +1,43 @@
+{
+  "schema_version": "af-final-analysis-config-v1",
+  "analysis_seed": 20260918,
+  "main_period": {
+    "start_year": 2019,
+    "end_year": 2025
+  },
+  "excluded_document_types": [
+    "editorial",
+    "letter",
+    "paratext",
+    "erratum",
+    "peer-review",
+    "supplementary-materials"
+  ],
+  "expected_final_database": {
+    "records": 29127,
+    "af_use_yes": 16902,
+    "af_use_no": 4387,
+    "af_use_uncertain": 7838,
+    "adoption_yes": 16884,
+    "adoption_no": 4402,
+    "adoption_uncertain": 7841,
+    "ab_action_disagreement_unadjudicated": 4245,
+    "actions_not_assessed_insufficient_evidence": 988
+  },
+  "analysis_definitions": {
+    "confirmed_af_use": "af_use_label == 'yes'",
+    "confirmed_non_use": "af_use_label == 'no'",
+    "uncertain_af_use": "af_use_label == 'uncertain'",
+    "confirmed_adoption": "adoption_eligible == 'yes'",
+    "resolved_use_analysis": "af_use_label in {'yes', 'no'}",
+    "action_analysis_eligible": "observed_actions_status in {'ab_exact_consensus', 'adjudicated'}",
+    "screen_negative_comparator": "work_id absent from the 29,127-record reviewed candidate database"
+  },
+  "rounding": {
+    "counts": 0,
+    "percentages": 1,
+    "confidence_intervals": 3,
+    "model_coefficients": 3,
+    "p_values": 3
+  }
+}

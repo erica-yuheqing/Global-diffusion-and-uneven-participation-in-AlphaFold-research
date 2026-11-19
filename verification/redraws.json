@@ -1,0 +1,426 @@
+[
+  {
+    "id": "Fig01",
+    "returncode": 0,
+    "seconds": 34.386,
+    "pdf_outputs": [
+      "figures/Figure1_concentration_refined.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Figure1_concentration_refined.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "Fig02",
+    "returncode": 0,
+    "seconds": 9.965,
+    "pdf_outputs": [
+      "figures/Figure2_unframed.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Figure2_unframed.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "Fig03",
+    "returncode": 0,
+    "seconds": 30.874,
+    "pdf_outputs": [
+      "figures/Figure3_RR.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Figure3_RR.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "Fig04",
+    "returncode": 0,
+    "seconds": 1.492,
+    "pdf_outputs": [
+      "figures/Figure4_compact_legend.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Figure4_compact_legend.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "Fig05",
+    "returncode": 0,
+    "seconds": 22.886,
+    "pdf_outputs": [
+      "figures/Figure5_shared_labels.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Figure5_shared_labels.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "Fig06",
+    "returncode": 0,
+    "seconds": 19.333,
+    "pdf_outputs": [
+      "figures/Figure6_readability.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Figure6_readability.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "ED01",
+    "returncode": 0,
+    "seconds": 17.903,
+    "pdf_outputs": [
+      "figures/ED1_identification_concise.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/ED1_identification_concise.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "ED02",
+    "returncode": 0,
+    "seconds": 18.724,
+    "pdf_outputs": [
+      "figures/Figure2_diffusion_clean_blue.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Figure2_diffusion_clean_blue.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "ED03",
+    "returncode": 0,
+    "seconds": 17.316,
+    "pdf_outputs": [
+      "figures/Country_patterns_bar_heatmap.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Country_patterns_bar_heatmap.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "ED04",
+    "returncode": 0,
+    "seconds": 18.156,
+    "pdf_outputs": [
+      "figures/Extended_Data_Fig4_optimized.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Extended_Data_Fig4_optimized.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "ED05",
+    "returncode": 0,
+    "seconds": 0.183,
+    "pdf_outputs": [
+      "figures/Extended_Data_Fig5_stars.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Extended_Data_Fig5_stars.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "ED06",
+    "returncode": 0,
+    "seconds": 18.595,
+    "pdf_outputs": [
+      "figures/Extended_Data_Fig7.pdf",
+      "figures/Extended_Data_Fig6.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Extended_Data_Fig6.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "ED07",
+    "returncode": 0,
+    "seconds": 18.261,
+    "pdf_outputs": [
+      "figures/Extended_Data_Fig7.pdf",
+      "figures/Extended_Data_Fig6.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Extended_Data_Fig7.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "ED08",
+    "returncode": 0,
+    "seconds": 17.502,
+    "pdf_outputs": [
+      "Extended_Data_Fig8_legend_below_v10.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "Extended_Data_Fig8_legend_below_v10.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "ED09",
+    "returncode": 0,
+    "seconds": 18.386,
+    "pdf_outputs": [
+      "figures/Extended_Data_Fig10.pdf",
+      "figures/Extended_Data_Fig9.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Extended_Data_Fig9.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "ED10",
+    "returncode": 0,
+    "seconds": 18.391,
+    "pdf_outputs": [
+      "figures/Extended_Data_Fig10.pdf",
+      "figures/Extended_Data_Fig9.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Extended_Data_Fig10.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "S01",
+    "returncode": 0,
+    "seconds": 17.534,
+    "pdf_outputs": [
+      "figures/Supplementary_Fig_S1.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Supplementary_Fig_S1.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "S02",
+    "returncode": 0,
+    "seconds": 17.31,
+    "pdf_outputs": [
+      "figures/Supplementary_Fig_S2.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Supplementary_Fig_S2.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "S03",
+    "returncode": 0,
+    "seconds": 17.98,
+    "pdf_outputs": [
+      "figures/Supplementary_Fig_S3.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Supplementary_Fig_S3.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "S04",
+    "returncode": 0,
+    "seconds": 17.865,
+    "pdf_outputs": [
+      "figures/Supplementary_Fig_S4.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Supplementary_Fig_S4.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "S05",
+    "returncode": 0,
+    "seconds": 17.859,
+    "pdf_outputs": [
+      "figures/Supplementary_Fig_S5.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Supplementary_Fig_S5.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "S06",
+    "returncode": 0,
+    "seconds": 17.856,
+    "pdf_outputs": [
+      "figures/Supplementary_Fig_S6.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Supplementary_Fig_S6.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "S07",
+    "returncode": 0,
+    "seconds": 18.157,
+    "pdf_outputs": [
+      "figures/Supplementary_Fig_S7.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Supplementary_Fig_S7.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "S08",
+    "returncode": 0,
+    "seconds": 17.824,
+    "pdf_outputs": [
+      "figures/Supplementary_Fig_S8.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Supplementary_Fig_S8.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "S09",
+    "returncode": 0,
+    "seconds": 17.774,
+    "pdf_outputs": [
+      "figures/Supplementary_Fig_S9.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Supplementary_Fig_S9.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "S10",
+    "returncode": 0,
+    "seconds": 17.522,
+    "pdf_outputs": [
+      "figures/Supplementary_Fig_S10.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Supplementary_Fig_S10.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "S11",
+    "returncode": 0,
+    "seconds": 17.762,
+    "pdf_outputs": [
+      "figures/Supplementary_Fig_S11.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Supplementary_Fig_S11.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "S12",
+    "returncode": 0,
+    "seconds": 18.49,
+    "pdf_outputs": [
+      "figures/Supplementary_Fig_S12.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Supplementary_Fig_S12.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "S13",
+    "returncode": 0,
+    "seconds": 17.889,
+    "pdf_outputs": [
+      "figures/Supplementary_Fig_S13.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Supplementary_Fig_S13.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "S14",
+    "returncode": 0,
+    "seconds": 18.496,
+    "pdf_outputs": [
+      "figures/Supplementary_Fig_S14.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Supplementary_Fig_S14.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "S15",
+    "returncode": 0,
+    "seconds": 18.315,
+    "pdf_outputs": [
+      "figures/Supplementary_Fig_S15.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Supplementary_Fig_S15.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "S16",
+    "returncode": 0,
+    "seconds": 18.215,
+    "pdf_outputs": [
+      "figures/Supplementary_Fig_S16.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Supplementary_Fig_S16.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "S17",
+    "returncode": 0,
+    "seconds": 17.393,
+    "pdf_outputs": [
+      "figures/Supplementary_Fig_S17.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Supplementary_Fig_S17.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "S18",
+    "returncode": 0,
+    "seconds": 17.643,
+    "pdf_outputs": [
+      "figures/Supplementary_Fig_S18.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Supplementary_Fig_S18.pdf",
+    "status": "passed"
+  },
+  {
+    "id": "S19",
+    "returncode": 0,
+    "seconds": 17.846,
+    "pdf_outputs": [
+      "figures/Supplementary_Fig_S19.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Supplementary_Fig_S19.pdf",
+    "status": "passed"
+  }
+]

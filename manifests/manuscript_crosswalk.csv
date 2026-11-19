@@ -1,0 +1,8 @@
+module,methods,figures,tables,notes,included,reproduction_boundary
+00_corpus,M1,ED1; S1–S2,S1–S2,Note1,"Master work IDs, original candidate decisions, 765 routes, actions and approved crosswalk",Historical API/full-text snapshot is time dependent. Human decisions are frozen inputs.
+01_national,M2,Fig1; ED2–3; S3–4,S1c; S3,Note2,"Country credits, country-year Ginis, published matching summaries and supplemental local draws",Original M2 matching seed and original draw-level sequence are unavailable.
+02_coverage,M3–M4,Fig2a–b; ED4–5; S5–7,S4–S5,Note2,"Fixed cohort inputs, opportunity records, saved allocations and sensitivity analyses","Historical 5,000 allocations are available. Coverage and analytical expectations rechecked."
+03_continuity,M5,Fig2c–d; S8–9,S6,Note1,"Source inputs, 9 display/plot exports, event and author linkage scripts",Linkage and 9 display tables rechecked. Activity evidence includes unresolved states.
+04_authorship,M6–M7,"Fig3–4; ED6–8; S10,S12",S7–S10,Note2,"77 pinned upstream files, normalized relations, common-support studies, joint draws, endpoint source and ED8 group matrices",Normalization checked in both directions. ED8 whole-study bootstrap rerun. Other historical draws supplied.
+05_outcomes_networks,M8,Fig5–6; ED9–10; S13–19,S11–S14,Note3,"Study IDs, cohort links, incoming citation edges, journal outcomes, control links, networks and saved model draws",Two original SJR input tables can be rebuilt with annual provider exports. All model fits were not rerun from scratch.
+06_income,"M3,M6","S7,S11",Supplementary sensitivity,Note2,"FY2020 mapping, full country order, coverage inputs, pooled joint bootstrap credits",11 derived tables independently reaggregated from archived inputs and checks performed.

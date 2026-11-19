@@ -1,0 +1,10 @@
+{
+  "journal_category_positions.parquet": {
+    "rows": 663869,
+    "bidirectional_multiset_differences": 0
+  },
+  "journal_year_positions.parquet": {
+    "rows": 326986,
+    "bidirectional_multiset_differences": 0
+  }
+}

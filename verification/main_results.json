@@ -1,0 +1,257 @@
+[
+  {
+    "check": "master records",
+    "observed": 6046663.0,
+    "target": 6046663.0
+  },
+  {
+    "check": "original candidate work IDs",
+    "observed": 29127.0,
+    "target": 29127.0
+  },
+  {
+    "check": "eligible records",
+    "observed": 4686896.0,
+    "target": 4686896.0
+  },
+  {
+    "check": "consolidated studies",
+    "observed": 4686879.0,
+    "target": 4686879.0
+  },
+  {
+    "check": "main eligible studies",
+    "observed": 2714594.0,
+    "target": 2714594.0
+  },
+  {
+    "check": "main AF studies",
+    "observed": 16414.0,
+    "target": 16414.0
+  },
+  {
+    "check": "AF subfields",
+    "observed": 21.0,
+    "target": 21.0
+  },
+  {
+    "check": "fixed institutions",
+    "observed": 48010.0,
+    "target": 48010.0
+  },
+  {
+    "check": "fixed countries",
+    "observed": 68.0,
+    "target": 68.0
+  },
+  {
+    "check": "AF 2020",
+    "observed": 11.0,
+    "target": 11.0
+  },
+  {
+    "check": "AF 2021",
+    "observed": 393.0,
+    "target": 393.0
+  },
+  {
+    "check": "AF 2022",
+    "observed": 2389.0,
+    "target": 2389.0
+  },
+  {
+    "check": "AF 2023",
+    "observed": 3904.0,
+    "target": 3904.0
+  },
+  {
+    "check": "AF 2024",
+    "observed": 4144.0,
+    "target": 4144.0
+  },
+  {
+    "check": "AF 2025",
+    "observed": 5573.0,
+    "target": 5573.0
+  },
+  {
+    "check": "Fig05 journal_position H matched institutions",
+    "observed": 5202.0,
+    "target": 5202.0
+  },
+  {
+    "check": "Fig05 journal_position H difference",
+    "observed": 8.609183326547749,
+    "target": 8.60918332654775
+  },
+  {
+    "check": "Fig05 journal_position L matched institutions",
+    "observed": 121.0,
+    "target": 121.0
+  },
+  {
+    "check": "Fig05 journal_position L difference",
+    "observed": 6.839827244579588,
+    "target": 6.8398272445795865
+  },
+  {
+    "check": "Fig05 journal_position M matched institutions",
+    "observed": 576.0,
+    "target": 576.0
+  },
+  {
+    "check": "Fig05 journal_position M difference",
+    "observed": 9.07758834044664,
+    "target": 9.077588340446644
+  },
+  {
+    "check": "Fig05 high_journal75 H matched institutions",
+    "observed": 5202.0,
+    "target": 5202.0
+  },
+  {
+    "check": "Fig05 high_journal75 H difference",
+    "observed": 16.670449726431844,
+    "target": 16.670449726431862
+  },
+  {
+    "check": "Fig05 high_journal75 L matched institutions",
+    "observed": 121.0,
+    "target": 121.0
+  },
+  {
+    "check": "Fig05 high_journal75 L difference",
+    "observed": 8.824574184422692,
+    "target": 8.824574184422694
+  },
+  {
+    "check": "Fig05 high_journal75 M matched institutions",
+    "observed": 576.0,
+    "target": 576.0
+  },
+  {
+    "check": "Fig05 high_journal75 M difference",
+    "observed": 18.1441627006075,
+    "target": 18.1441627006075
+  },
+  {
+    "check": "Fig05 percentile_12m H matched institutions",
+    "observed": 3735.0,
+    "target": 3735.0
+  },
+  {
+    "check": "Fig05 percentile_12m H difference",
+    "observed": 8.356931873032059,
+    "target": 8.356931873032057
+  },
+  {
+    "check": "Fig05 percentile_12m L matched institutions",
+    "observed": 45.0,
+    "target": 45.0
+  },
+  {
+    "check": "Fig05 percentile_12m L difference",
+    "observed": 4.185754219013375,
+    "target": 4.185754219013376
+  },
+  {
+    "check": "Fig05 percentile_12m M matched institutions",
+    "observed": 269.0,
+    "target": 269.0
+  },
+  {
+    "check": "Fig05 percentile_12m M difference",
+    "observed": 5.595400377487666,
+    "target": 5.595400377487667
+  },
+  {
+    "check": "Fig05 high_citation90 H matched institutions",
+    "observed": 3735.0,
+    "target": 3735.0
+  },
+  {
+    "check": "Fig05 high_citation90 H difference",
+    "observed": 7.7530135121191135,
+    "target": 7.753013512119123
+  },
+  {
+    "check": "Fig05 high_citation90 L matched institutions",
+    "observed": 45.0,
+    "target": 45.0
+  },
+  {
+    "check": "Fig05 high_citation90 L difference",
+    "observed": 6.647708003958764,
+    "target": 6.6477080039587655
+  },
+  {
+    "check": "Fig05 high_citation90 M matched institutions",
+    "observed": 269.0,
+    "target": 269.0
+  },
+  {
+    "check": "Fig05 high_citation90 M difference",
+    "observed": 3.470267702649249,
+    "target": 3.470267702649248
+  },
+  {
+    "check": "Fig06 own journal L slope",
+    "observed": 1.9920377863679708,
+    "target": 1.992037786367974
+  },
+  {
+    "check": "Fig06 own journal M slope",
+    "observed": 0.16995919874315055,
+    "target": 0.1699591987431508
+  },
+  {
+    "check": "Fig06 own journal H slope",
+    "observed": -0.5898316093432951,
+    "target": -0.5898316093432963
+  },
+  {
+    "check": "Fig06 own citation L slope",
+    "observed": -0.8812968220598743,
+    "target": -0.8812968220598753
+  },
+  {
+    "check": "Fig06 own citation M slope",
+    "observed": 0.3193659857472006,
+    "target": 0.3193659857471974
+  },
+  {
+    "check": "Fig06 own citation H slope",
+    "observed": 1.0673774282133193,
+    "target": 1.0673774282133175
+  },
+  {
+    "check": "Fig06 partner journal L slope",
+    "observed": -0.7550312829227139,
+    "target": -0.7550312829227128
+  },
+  {
+    "check": "Fig06 partner journal M slope",
+    "observed": -0.008851140401566534,
+    "target": -0.0088511404015677
+  },
+  {
+    "check": "Fig06 partner journal H slope",
+    "observed": 0.4730524523374976,
+    "target": 0.4730524523374982
+  },
+  {
+    "check": "Fig06 partner citation L slope",
+    "observed": -1.8361040594794136,
+    "target": -1.836104059479416
+  },
+  {
+    "check": "Fig06 partner citation M slope",
+    "observed": 2.065584209230648,
+    "target": 2.0655842092306456
+  },
+  {
+    "check": "Fig06 partner citation H slope",
+    "observed": 2.206589024106619,
+    "target": 2.206589024106617
+  }
+]

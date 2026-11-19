@@ -1,0 +1,2 @@
+Original authorship points and intervals reproduced: 1.527496351627633e-09 2.431388423929093e-13
+Income reaggregation verified: 11 tables

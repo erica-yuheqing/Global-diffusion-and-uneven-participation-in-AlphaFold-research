@@ -1,0 +1,3 @@
+Prepared 9 plot/source-data CSV files; no new statistical models.
+Cross-section ID/group audit PASS: 71 checks; 41 Pre-AF2 exclusions
+continuity OK

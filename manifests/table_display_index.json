@@ -1,0 +1,362 @@
+[
+  {
+    "table": "S1",
+    "part": "a",
+    "path": "tables/Table_S01/displayed_a.csv",
+    "rows": 20,
+    "columns": 4,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "Supplementary Table S1 Corpus retrieval and study reconciliation A Corpus and supplementary retrieval flow"
+  },
+  {
+    "table": "S1",
+    "part": "b",
+    "path": "tables/Table_S01/displayed_b.csv",
+    "rows": 4,
+    "columns": 3,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "B Final original-branch decisions in the current manuscript"
+  },
+  {
+    "table": "S1",
+    "part": "c",
+    "path": "tables/Table_S01/displayed_c.csv",
+    "rows": 22,
+    "columns": 5,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "Supplementary Table S1 continued C Eligible subfields and pooled study counts 2020–2025"
+  },
+  {
+    "table": "S2",
+    "part": "a",
+    "path": "tables/Table_S02/displayed_a.csv",
+    "rows": 4,
+    "columns": 3,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "Supplementary Table S2 Pilot reference states and classification agreement A Human reference states"
+  },
+  {
+    "table": "S2",
+    "part": "b",
+    "path": "tables/Table_S02/displayed_b.csv",
+    "rows": 5,
+    "columns": 9,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "B Historical systems and final production labels"
+  },
+  {
+    "table": "S3",
+    "part": "a",
+    "path": "tables/Table_S03/displayed_a.csv",
+    "rows": 5,
+    "columns": 5,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "Supplementary Table S3 National concentration matching and geographic ascertainment A Raw annual concentration"
+  },
+  {
+    "table": "S3",
+    "part": "b",
+    "path": "tables/Table_S03/displayed_b.csv",
+    "rows": 5,
+    "columns": 5,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "B Composition-matched comparison"
+  },
+  {
+    "table": "S3",
+    "part": "c",
+    "path": "tables/Table_S03/displayed_c.csv",
+    "rows": 6,
+    "columns": 5,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "C Endpoint sensitivity"
+  },
+  {
+    "table": "S3",
+    "part": "d",
+    "path": "tables/Table_S03/displayed_d.csv",
+    "rows": 12,
+    "columns": 6,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "D Country ascertainment"
+  },
+  {
+    "table": "S4",
+    "part": "a",
+    "path": "tables/Table_S04/displayed_a.csv",
+    "rows": 15,
+    "columns": 4,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "Supplementary Table S4 Institutional baseline and distinct participation populations A Institutional and opportunity-pool flow"
+  },
+  {
+    "table": "S4",
+    "part": "b",
+    "path": "tables/Table_S04/displayed_b.csv",
+    "rows": 6,
+    "columns": 3,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "B Distinct date and publication-year populations"
+  },
+  {
+    "table": "S5",
+    "part": "a",
+    "path": "tables/Table_S05/displayed_a.csv",
+    "rows": 6,
+    "columns": 6,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "Supplementary Table S5 Institutional coverage and publication opportunity references A Annual main-sample coverage"
+  },
+  {
+    "table": "S5",
+    "part": "b",
+    "path": "tables/Table_S05/displayed_b.csv",
+    "rows": 4,
+    "columns": 7,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "B Gap-change reference by national output group"
+  },
+  {
+    "table": "S5",
+    "part": "c",
+    "path": "tables/Table_S05/displayed_c.csv",
+    "rows": 3,
+    "columns": 5,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "C Growth decomposition"
+  },
+  {
+    "table": "S5",
+    "part": "d",
+    "path": "tables/Table_S05/displayed_d.csv",
+    "rows": 9,
+    "columns": 7,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "D Threshold and allocation sensitivity"
+  },
+  {
+    "table": "S6",
+    "part": "a",
+    "path": "tables/Table_S06/displayed_a.csv",
+    "rows": 12,
+    "columns": 7,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "Supplementary Table S6 Entry activities repeat publication and continuity of evidence A Activities in entry studies"
+  },
+  {
+    "table": "S6",
+    "part": "b",
+    "path": "tables/Table_S06/displayed_b.csv",
+    "rows": 5,
+    "columns": 8,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "B Entry-conditioned repeat publication"
+  },
+  {
+    "table": "S6",
+    "part": "c",
+    "path": "tables/Table_S06/displayed_c.csv",
+    "rows": 3,
+    "columns": 4,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "C Unresolved-event sensitivity"
+  },
+  {
+    "table": "S6",
+    "part": "d",
+    "path": "tables/Table_S06/displayed_d.csv",
+    "rows": 4,
+    "columns": 6,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "D Paired activity evidence"
+  },
+  {
+    "table": "S7",
+    "part": "a",
+    "path": "tables/Table_S07/displayed_a.csv",
+    "rows": 2,
+    "columns": 6,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "Supplementary Table S7 Authorship cohort selection and common support A Cohort accounting by corpus"
+  },
+  {
+    "table": "S7",
+    "part": "b",
+    "path": "tables/Table_S07/displayed_b.csv",
+    "rows": 12,
+    "columns": 5,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "B Annual retention"
+  },
+  {
+    "table": "S8",
+    "part": "a",
+    "path": "tables/Table_S08/displayed_a.csv",
+    "rows": 16,
+    "columns": 7,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "Supplementary Table S8 Authorship representation paired benchmark contrasts and sensitivity A Standardized group representation"
+  },
+  {
+    "table": "S8",
+    "part": "b",
+    "path": "tables/Table_S08/displayed_b.csv",
+    "rows": 8,
+    "columns": 6,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "B Paired benchmark changes"
+  },
+  {
+    "table": "S8",
+    "part": "c",
+    "path": "tables/Table_S08/displayed_c.csv",
+    "rows": 16,
+    "columns": 7,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "Supplementary Table S8 continued C Direct AF3 minus AF2 changes"
+  },
+  {
+    "table": "S8",
+    "part": "d",
+    "path": "tables/Table_S08/displayed_d.csv",
+    "rows": 12,
+    "columns": 6,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "D Rebuilt sensitivity samples"
+  },
+  {
+    "table": "S9",
+    "part": "a",
+    "path": "tables/Table_S09/displayed_a.csv",
+    "rows": 36,
+    "columns": 8,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "Supplementary Table S9 Domestic institutional representation and zero-role opportunities A Domestic institutional representation in prespecified countries"
+  },
+  {
+    "table": "S9",
+    "part": "b",
+    "path": "tables/Table_S09/displayed_b.csv",
+    "rows": 18,
+    "columns": 6,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "Supplementary Table S9 continued B Paired within-institution differences in the same countries"
+  },
+  {
+    "table": "S9",
+    "part": "c",
+    "path": "tables/Table_S09/displayed_c.csv",
+    "rows": 4,
+    "columns": 7,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "C Pooled zero-role counts and exact expectations"
+  },
+  {
+    "table": "S10",
+    "part": "a",
+    "path": "tables/Table_S10/displayed_a.csv",
+    "rows": 4,
+    "columns": 5,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "Supplementary Table S10 First and last authorship pairing and institutional correspondence A Institutional correspondence"
+  },
+  {
+    "table": "S10",
+    "part": "b",
+    "path": "tables/Table_S10/displayed_b.csv",
+    "rows": 16,
+    "columns": 8,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "B All country-group pairs and direct corpus contrasts"
+  },
+  {
+    "table": "S11",
+    "part": "a",
+    "path": "tables/Table_S11/displayed_a.csv",
+    "rows": 6,
+    "columns": 7,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "Supplementary Table S11 Outcome-specific samples matching and ascertainment A Primary outcome sample sizes"
+  },
+  {
+    "table": "S11",
+    "part": "b",
+    "path": "tables/Table_S11/displayed_b.csv",
+    "rows": 16,
+    "columns": 9,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "B Matching support by publication year"
+  },
+  {
+    "table": "S12",
+    "part": "a",
+    "path": "tables/Table_S12/displayed_a.csv",
+    "rows": 18,
+    "columns": 7,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "Supplementary Table S12 Relative journal and citation outcomes with historical support A Main continuous and threshold outcomes"
+  },
+  {
+    "table": "S12",
+    "part": "b",
+    "path": "tables/Table_S12/displayed_b.csv",
+    "rows": 12,
+    "columns": 6,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "B Historical-support sensitivity"
+  },
+  {
+    "table": "S13",
+    "part": "a",
+    "path": "tables/Table_S13/displayed_a.csv",
+    "rows": 3,
+    "columns": 7,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "Supplementary Table S13 Population outcome coverage and mature entrant follow-up A Fixed-population coverage through 2024"
+  },
+  {
+    "table": "S13",
+    "part": "b",
+    "path": "tables/Table_S13/displayed_b.csv",
+    "rows": 6,
+    "columns": 7,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "B Qualifying outcomes in the same mature entrant cohort"
+  },
+  {
+    "table": "S14",
+    "part": "a",
+    "path": "tables/Table_S14/displayed_a.csv",
+    "rows": 10,
+    "columns": 8,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "Supplementary Table S14 Historical networks model support and conditional associations A Network boundaries and ascertainment"
+  },
+  {
+    "table": "S14",
+    "part": "b",
+    "path": "tables/Table_S14/displayed_b.csv",
+    "rows": 12,
+    "columns": 6,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "B Unadjusted primary own and partner associations"
+  },
+  {
+    "table": "S14",
+    "part": "c",
+    "path": "tables/Table_S14/displayed_c.csv",
+    "rows": 26,
+    "columns": 8,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "Supplementary Table S14 continued C Adjusted own-network slopes and pooled partner term"
+  },
+  {
+    "table": "S14",
+    "part": "d",
+    "path": "tables/Table_S14/displayed_d.csv",
+    "rows": 12,
+    "columns": 6,
+    "source": "Editable 1118 table source; rounded display transcription, not unrounded analysis estimates",
+    "preceding_text": "Supplementary Table S14 continued D Direct differences from the lower-output slope"
+  }
+]

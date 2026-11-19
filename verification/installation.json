@@ -1,0 +1,28 @@
+{
+  "zip_files": 10,
+  "compressed_archive_bytes": 6642846541,
+  "unpacked_member_bytes": 7470632565,
+  "unpacked_file_count": 2855,
+  "archives_verified": {
+    "01_figures_and_display_tables.zip": 423,
+    "02_corpus_and_decisions.zip": 6,
+    "03_author_input_shards.zip": 78,
+    "04_source_metadata.zip": 2,
+    "analysis_01_national.zip": 167,
+    "analysis_02_coverage.zip": 212,
+    "analysis_03_continuity.zip": 98,
+    "analysis_04_authorship.zip": 437,
+    "analysis_05_outcomes_networks.zip": 1406,
+    "analysis_06_income.zip": 26
+  },
+  "parquet_files": 657,
+  "fresh_install_members_verified_by_sha256": true,
+  "raw_jsonl_files": 0,
+  "offline_recheck_51_max_difference": 7.105427357601002e-15,
+  "display_tables": 14,
+  "display_blocks": 40,
+  "native_table_blocks": 26,
+  "image_table_body_rows": 163,
+  "data_and_code_text_scan": "no recognized credential pattern or private author home prefix",
+  "human_review_inputs_excluded": true
+}

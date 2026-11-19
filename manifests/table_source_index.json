@@ -1,0 +1,222 @@
+[
+  {
+    "table": "S1",
+    "analysis_archive_path": "01_national/tables/Table_S1_process_nodes.csv",
+    "exists": true
+  },
+  {
+    "table": "S1",
+    "analysis_archive_path": "01_national/tables/Table_S1_subfield_scope.csv",
+    "exists": true
+  },
+  {
+    "table": "S2",
+    "analysis_archive_path": "01_national/tables/pilot_reference_states.csv",
+    "exists": true
+  },
+  {
+    "table": "S2",
+    "analysis_archive_path": "01_national/tables/Table_S2_pilot_metrics.csv",
+    "exists": true
+  },
+  {
+    "table": "S2",
+    "analysis_archive_path": "01_national/tables/pilot_comparison_records.csv",
+    "exists": true
+  },
+  {
+    "table": "S3",
+    "analysis_archive_path": "01_national/tables/raw_annual_Gini.csv",
+    "exists": true
+  },
+  {
+    "table": "S3",
+    "analysis_archive_path": "01_national/tables/main_matched_gap.csv",
+    "exists": true
+  },
+  {
+    "table": "S3",
+    "analysis_archive_path": "01_national/tables/matching_endpoint_changes.csv",
+    "exists": true
+  },
+  {
+    "table": "S3",
+    "analysis_archive_path": "01_national/tables/annual_source_coverage.csv",
+    "exists": true
+  },
+  {
+    "table": "S4",
+    "analysis_archive_path": "02_coverage/tables/Table_SX_a_sample.csv",
+    "exists": true
+  },
+  {
+    "table": "S4",
+    "analysis_archive_path": "02_coverage/tables/Table_SX_c_cohort_summary.csv",
+    "exists": true
+  },
+  {
+    "table": "S5",
+    "analysis_archive_path": "02_coverage/tables/Table_SY_a_annual.csv",
+    "exists": true
+  },
+  {
+    "table": "S5",
+    "analysis_archive_path": "02_coverage/tables/Table_SY_b_all_benchmarks.csv",
+    "exists": true
+  },
+  {
+    "table": "S5",
+    "analysis_archive_path": "02_coverage/tables/Table_SY_d_growth_components.csv",
+    "exists": true
+  },
+  {
+    "table": "S5",
+    "analysis_archive_path": "02_coverage/tables/new_weighting_endpoints.csv",
+    "exists": true
+  },
+  {
+    "table": "S6",
+    "analysis_archive_path": "03_continuity/plot_data/Figure3a.csv",
+    "exists": true
+  },
+  {
+    "table": "S6",
+    "analysis_archive_path": "03_continuity/plot_data/ED_use_transitions.csv",
+    "exists": true
+  },
+  {
+    "table": "S6",
+    "analysis_archive_path": "03_continuity/plot_data/Figure3c.csv",
+    "exists": true
+  },
+  {
+    "table": "S6",
+    "analysis_archive_path": "03_continuity/entry_reference/tables/reference_summary.csv",
+    "exists": true
+  },
+  {
+    "table": "S6",
+    "analysis_archive_path": "03_continuity/entry_reference/tables/registered_event_sensitivity.csv",
+    "exists": true
+  },
+  {
+    "table": "S7",
+    "analysis_archive_path": "04_authorship/tables/strict_exclusive_final_flow.csv",
+    "exists": true
+  },
+  {
+    "table": "S7",
+    "analysis_archive_path": "04_authorship/tables/strict_annual_flow.csv",
+    "exists": true
+  },
+  {
+    "table": "S8",
+    "analysis_archive_path": "04_authorship/tables/strict_main_R.csv",
+    "exists": true
+  },
+  {
+    "table": "S8",
+    "analysis_archive_path": "04_authorship/tables/strict_main_delta.csv",
+    "exists": true
+  },
+  {
+    "table": "S8",
+    "analysis_archive_path": "04_authorship/tables/strict_main_benchmark_change.csv",
+    "exists": true
+  },
+  {
+    "table": "S8",
+    "analysis_archive_path": "04_authorship/tables/period_direct_changes.csv",
+    "exists": true
+  },
+  {
+    "table": "S8",
+    "analysis_archive_path": "04_authorship/tables/sensitivity_coverage_and_status.csv",
+    "exists": true
+  },
+  {
+    "table": "S9",
+    "analysis_archive_path": "04_authorship/tables/strict_domestic_institution_R.csv",
+    "exists": true
+  },
+  {
+    "table": "S9",
+    "analysis_archive_path": "04_authorship/tables/strict_domestic_institution_paired.csv",
+    "exists": true
+  },
+  {
+    "table": "S9",
+    "analysis_archive_path": "04_authorship/tables/institution_zero_reference.csv",
+    "exists": true
+  },
+  {
+    "table": "S10",
+    "analysis_archive_path": "04_authorship/tables/strict_main_structure.csv",
+    "exists": true
+  },
+  {
+    "table": "S10",
+    "analysis_archive_path": "04_authorship/tables/strict_main_pairings.csv",
+    "exists": true
+  },
+  {
+    "table": "S11",
+    "analysis_archive_path": "05_outcomes_networks/tables/T_SI1.csv",
+    "exists": true
+  },
+  {
+    "table": "S11",
+    "analysis_archive_path": "05_outcomes_networks/tables/T_SI4.csv",
+    "exists": true
+  },
+  {
+    "table": "S12",
+    "analysis_archive_path": "05_outcomes_networks/tables/T_SI3_estimates.csv",
+    "exists": true
+  },
+  {
+    "table": "S12",
+    "analysis_archive_path": "05_outcomes_networks/tables/history_support.csv",
+    "exists": true
+  },
+  {
+    "table": "S13",
+    "analysis_archive_path": "05_outcomes_networks/tables/coverage_summary_2024.csv",
+    "exists": true
+  },
+  {
+    "table": "S13",
+    "analysis_archive_path": "05_outcomes_networks/tables/entry_opportunity_summary.csv",
+    "exists": true
+  },
+  {
+    "table": "S14",
+    "analysis_archive_path": "05_outcomes_networks/tables/T_SI8_network_registry.csv",
+    "exists": true
+  },
+  {
+    "table": "S14",
+    "analysis_archive_path": "05_outcomes_networks/tables/network_results_journal.csv",
+    "exists": true
+  },
+  {
+    "table": "S14",
+    "analysis_archive_path": "05_outcomes_networks/tables/network_results_citation.csv",
+    "exists": true
+  },
+  {
+    "table": "S14",
+    "analysis_archive_path": "05_outcomes_networks/tables/T_SI9_network_models.csv",
+    "exists": true
+  },
+  {
+    "table": "S14",
+    "analysis_archive_path": "05_outcomes_networks/tables/network_adjusted_group_contrasts_journal.csv",
+    "exists": true
+  },
+  {
+    "table": "S14",
+    "analysis_archive_path": "05_outcomes_networks/tables/network_adjusted_group_contrasts_citation.csv",
+    "exists": true
+  }
+]

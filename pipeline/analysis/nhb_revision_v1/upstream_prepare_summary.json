@@ -1,0 +1,95 @@
+{
+  "config": {
+    "analysis_definitions": {
+      "action_analysis_eligible": "observed_actions_status in {'ab_exact_consensus', 'adjudicated'}",
+      "confirmed_adoption": "adoption_eligible == 'yes'",
+      "confirmed_af_use": "af_use_label == 'yes'",
+      "confirmed_non_use": "af_use_label == 'no'",
+      "resolved_use_analysis": "af_use_label in {'yes', 'no'}",
+      "screen_negative_comparator": "work_id absent from the 29,127-record reviewed candidate database",
+      "uncertain_af_use": "af_use_label == 'uncertain'"
+    },
+    "analysis_seed": 20260918,
+    "excluded_document_types": [
+      "editorial",
+      "letter",
+      "paratext",
+      "erratum",
+      "peer-review",
+      "supplementary-materials"
+    ],
+    "expected_final_database": {
+      "ab_action_disagreement_unadjudicated": 4245,
+      "actions_not_assessed_insufficient_evidence": 988,
+      "adoption_no": 4402,
+      "adoption_uncertain": 7841,
+      "adoption_yes": 16884,
+      "af_use_no": 4387,
+      "af_use_uncertain": 7838,
+      "af_use_yes": 16902,
+      "records": 29127
+    },
+    "main_period": {
+      "end_year": 2025,
+      "start_year": 2019
+    },
+    "rounding": {
+      "confidence_intervals": 3,
+      "counts": 0,
+      "model_coefficients": 3,
+      "p_values": 3,
+      "percentages": 1
+    },
+    "schema_version": "af-final-analysis-config-v1"
+  },
+  "counts": {
+    "adoption_no": 4402,
+    "adoption_uncertain": 7841,
+    "adoption_yes": 16884,
+    "af_use_no": 4387,
+    "af_use_uncertain": 7838,
+    "af_use_yes": 16902,
+    "master_records": 6046663,
+    "max_publication_year": 2025,
+    "min_publication_year": 2015,
+    "reviewed_candidates": 29127,
+    "screen_negative_comparators": 6017536,
+    "unique_work_ids": 6046663
+  },
+  "created_at_utc": "2026-10-01T07:39:38.986285+00:00",
+  "id_normalization": "regexp_extract(source work_id, 'W[0-9]+', 0)",
+  "outputs": {
+    "reviewed_candidates": {
+      "path": "/historical-workspace/projects/IGN/AlphaFoldResearch/analysis/final_v1/out/reviewed_candidates.parquet",
+      "sha256": "357576693f31824e696efbe2110782056c95f9e76d13e0acc8bf74c2f21d163c"
+    },
+    "works_analysis_master": {
+      "path": "/historical-workspace/projects/IGN/AlphaFoldResearch/analysis/final_v1/out/works_analysis_master.parquet",
+      "sha256": "15cf4e6559f3129d49714e475c7ff1483a27611057ef61d7cb9180396226ea3f"
+    }
+  },
+  "raw_sources_modified": false,
+  "reproducibility": {
+    "config_path": "/historical-workspace/projects/IGN/AlphaFoldResearch/analysis/final_v1/config.json",
+    "config_sha256": "afe62786e8359e60408ff295de6c6fe49562b9995befed7a62e5f42413a2da92",
+    "script_path": "/historical-workspace/projects/IGN/AlphaFoldResearch/analysis/final_v1/prepare.py",
+    "script_sha256": "60928b11c597e1801c6418eaf37a5b7a6e2333681af025eceaf13d0aceeef627"
+  },
+  "schema_version": "af-final-analysis-prepare-summary-v1",
+  "sources": {
+    "final_csv": {
+      "path": "/historical-workspace/projects/IGN/AlphaFoldResearch/fulltext/production/final_database_v2/af_research_database_final_v2.csv",
+      "sha256": "df886ac24531fcf46c60e3453e38dac31a4867a031046d4c52544996718e8737"
+    },
+    "final_lock": {
+      "path": "/historical-workspace/projects/IGN/AlphaFoldResearch/fulltext/production/final_database_v2/af_research_database_final_v2.lock.json",
+      "sha256": "d9dd237460988995620d991d3e4bbcb51972ee42ce23915f7deb55b21a89d9e2"
+    },
+    "works_parquet_inventory": {
+      "files": 72,
+      "note": "This is a metadata inventory fingerprint, not a content hash of 3+ GiB parquet data.",
+      "path_size_mtime_manifest_sha256": "7ae88ed639ad3011834f606f6e9def341b636b9ad0ec0fe6c3df33838d5498de",
+      "root": "/historical-workspace/projects/IGN/AlphaFoldResearch/derived_tables/works"
+    }
+  }
+}

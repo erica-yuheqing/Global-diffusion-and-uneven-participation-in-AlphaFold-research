@@ -1,0 +1,16 @@
+AF bootstrap completed
+reference bootstrap completed
+            measure      corpus focal_group partner_group  estimate    ci_low   ci_high
+partner_composition          AF       Lower        Higher 83.300792 77.718558 88.363424
+partner_composition   reference       Lower        Higher 78.633429 77.974327 79.287502
+partner_composition AF - non-AF       Lower        Higher  4.667363 -1.129050  9.793440
+partner_composition          AF      Middle        Higher 90.283942 88.592838 92.043290
+partner_composition   reference      Middle        Higher 81.762506 81.415120 82.145141
+partner_composition AF - non-AF      Middle        Higher  8.521436  6.765773 10.293096
+partner_composition          AF      Higher        Higher 94.308906 93.981334 94.638836
+partner_composition   reference      Higher        Higher 89.687965 89.606086 89.766082
+partner_composition AF - non-AF      Higher        Higher  4.620941  4.284230  4.969726
+partner_composition          AF       Other        Higher 82.709029 79.693018 85.702268
+partner_composition   reference       Other        Higher 75.007994 74.524779 75.536058
+partner_composition AF - non-AF       Other        Higher  7.701036  4.645650 10.671861
+ed8-bootstrap OK

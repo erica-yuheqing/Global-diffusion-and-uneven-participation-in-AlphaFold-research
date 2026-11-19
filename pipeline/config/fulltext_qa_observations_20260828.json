@@ -1,0 +1,12 @@
+{
+  "W3203541447": {
+    "observed_on": "2026-08-28",
+    "observation": "上轮只读抽查：Poppler 报 Bad FCHECK in flate stream，首页渲染为空白。此观察仅针对该样本，不代表所有 NO_BLOCKS 都是损坏文件；尚未修复或重新下载。",
+    "source_path": "/historical-workspace/projects/IGN/AlphaFoldResearch/fulltext/raw/openalex_pdf/W32/03/W3203541447.pdf"
+  },
+  "W4308482727": {
+    "observed_on": "2026-08-28",
+    "observation": "上轮检查两页 PDF：内容为因重复发布而撤回的说明，并给出另一预印本 DOI 10.1101/2022.03.10.483744。需核对版本与去重关系，不能当作研究正文；尚未替换或排除记录。",
+    "source_path": "/historical-workspace/projects/IGN/AlphaFoldResearch/fulltext/raw/unpaywall_pdf/W43/08/W4308482727.pdf"
+  }
+}
