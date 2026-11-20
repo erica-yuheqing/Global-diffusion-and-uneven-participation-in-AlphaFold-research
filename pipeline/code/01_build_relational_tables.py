@@ -1,3 +1,4 @@
+# Country-level network analyses in this historical notebook are retired. For manuscript M7/M8 see docs/REPRODUCTION.md.
 import marimo
 
 __generated_with = "0.21.1"
@@ -3557,6 +3558,7 @@ def _(analysis_duckdb, analysis_ready, mo, work_institutions_glob, works_glob):
     ORDER BY publication_year, group_name
     """).df()
 
+    # RETIRED exploratory country-pair summary; see manuscript M7/M8 for institutional networks.
     country_pair_edges_df = analysis_duckdb.execute(f"""
     WITH work_flags AS (
         SELECT
@@ -3672,6 +3674,7 @@ def _(mo):
 
 @app.cell(hide_code=True)
 def _(alt, country_pair_edges_top20_df):
+    # RETIRED country-network material: these exploratory displays predate manuscript M7/M8.
     country_pair_top20_bar_chart = alt.Chart(country_pair_edges_top20_df).mark_bar().encode(
         x=alt.X("edge_weight:Q", title="Number of AF collaboration links"),
         y=alt.Y("country_pair:N", sort="-x", title="Country pair"),
@@ -4213,6 +4216,7 @@ def _(mo):
 
 @app.cell(hide_code=True)
 def _(country_pair_edges_af_df, country_trend_df, np):
+    # RETIRED country-network material: these exploratory displays predate manuscript M7/M8.
     country_network_edges_df = country_pair_edges_af_df.groupby([
         "country_code_1",
         "country_code_2",
@@ -4280,6 +4284,7 @@ def _(
     country_network_positions,
     go,
 ):
+    # RETIRED country-network material: these exploratory displays predate manuscript M7/M8.
     country_network_fig = go.Figure()
 
     _edge_weight_max = country_network_edges_filtered_df["edge_weight"].max() if len(country_network_edges_filtered_df) > 0 else 1
@@ -4351,6 +4356,7 @@ def _(
 
 @app.cell(hide_code=True)
 def _(mo):
+    # RETIRED country-network material: these exploratory displays predate manuscript M7/M8.
     mo.md(r"""
     ### Interpreting the country collaboration network
 
@@ -4533,6 +4539,7 @@ def _(
 
 @app.cell(hide_code=True)
 def _(mo):
+    # RETIRED country-network material: these exploratory displays predate manuscript M7/M8.
     country_network_year_slider = mo.ui.slider(
         2021,
         2025,
@@ -4560,6 +4567,7 @@ def _(
     country_trend_df,
     np,
 ):
+    # RETIRED country-network material: these exploratory displays predate manuscript M7/M8.
     country_network_year_base_df = country_pair_edges_df[
         country_pair_edges_df["publication_year"] == country_network_year_slider.value
     ].copy()
@@ -4634,6 +4642,7 @@ def _(
     go,
     mo,
 ):
+    # RETIRED country-network material: these exploratory displays predate manuscript M7/M8.
     def _build_country_network_figure(_edges_df, _nodes_df, _node_value_col, _title, _node_color):
         _fig = go.Figure()
         _edge_max = _edges_df["edge_weight"].max() if len(_edges_df) > 0 else 1
@@ -4722,6 +4731,7 @@ def _(
 
 @app.cell(hide_code=True)
 def _(mo):
+    # RETIRED country-network material: these exploratory displays predate manuscript M7/M8.
     mo.md(r"""
     ### Comparing AF and Non-AF country collaboration networks
 
@@ -4756,6 +4766,7 @@ def _(
     mo,
     np,
 ):
+    # RETIRED country-network material: these exploratory displays predate manuscript M7/M8.
     def _build_plotly_geo_collab_figure(_edges_df, _nodes_df, _value_col, _title):
         _nodes_top_df = _nodes_df.sort_values(_value_col, ascending=False).head(25).copy()
         _node_codes = _nodes_top_df["country_code"].dropna().tolist()
@@ -4902,6 +4913,7 @@ def _(
     country_trend_df,
     mo,
 ):
+    # RETIRED country-network material: these exploratory displays predate manuscript M7/M8.
     country_network_cumulative_edges_all_df = country_pair_edges_df.groupby(
         ["is_alphafold_related", "country_code_1", "country_code_2"],
         as_index=False,
@@ -4984,6 +4996,7 @@ def _(
     country_network_cumulative_non_af_nodes_df,
     mo,
 ):
+    # RETIRED country-network material: these exploratory displays predate manuscript M7/M8.
     country_network_cumulative_af_circle_ax = build_circular_connectivity_figure(
         nodes_df=country_network_cumulative_af_nodes_df,
         edges_df=country_network_cumulative_af_edges_df,
@@ -7433,6 +7446,7 @@ def _(px, team_structure_df):
 
 @app.cell(hide_code=True)
 def _(mo):
+    # RETIRED country-network material: these exploratory displays predate manuscript M7/M8.
     mo.md(r"""
     ### About Cytoscape-style collaboration networks in this notebook
 

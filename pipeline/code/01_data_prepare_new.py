@@ -1,3 +1,4 @@
+# Country-level network analyses in this historical notebook are retired. For manuscript M7/M8 see docs/REPRODUCTION.md.
 import marimo
 
 __generated_with = "0.23.1"
@@ -2472,6 +2473,7 @@ def _(duckdb):
         INNER JOIN af_works AS w
             ON a.work_id = w.work_id
         GROUP BY a.country_code, b.country_code
+        -- RETIRED country-pair filter. M8 baseline institutions are linked after one shared eligible study.
         HAVING COUNT(DISTINCT a.work_id) >= 5
         ORDER BY n_shared_works DESC
         """
@@ -2687,6 +2689,7 @@ def _(world_map):
 
 @app.cell(hide_code=True)
 def _(country_collab_edges, country_income_group_lookup, nx, pd):
+    # RETIRED country-network analysis: this cell uses the historical country_collab_edges output.
     figure_3b_graph = nx.Graph()
     for _row_3b in country_collab_edges.itertuples(index=False):
         figure_3b_graph.add_edge(
@@ -2696,6 +2699,7 @@ def _(country_collab_edges, country_income_group_lookup, nx, pd):
         )
 
     _figure_3b_weighted_degree = dict(figure_3b_graph.degree(weight="weight"))
+    # RETIRED: shared-publication count was passed as a path length in this country-level calculation.
     _figure_3b_betweenness = nx.betweenness_centrality(
         figure_3b_graph, weight="weight", normalized=True
     )
@@ -3186,6 +3190,7 @@ def _(
     figure_3e_country_first_author_base,
     math,
 ):
+    # RETIRED country-network analysis: this cell uses the historical figure_3b_centrality output.
     figure_3_rd_strength_leadership_df = figure_3b_centrality.merge(
         figure_3e_country_first_author_base[
             [
@@ -7872,6 +7877,7 @@ def fig_3_b(
 
 @app.cell(hide_code=True)
 def _(country_collab_edges, country_income_group_lookup, duckdb, pd):
+    # RETIRED country-network analysis: this cell uses the historical country_collab_edges output.
     figure_3d_income_edges = country_collab_edges.copy()
     figure_3d_income_edges["source_country"] = (
         figure_3d_income_edges["source_country"].astype(str).str.strip().str.upper()
@@ -7960,6 +7966,7 @@ def _(country_collab_edges, country_income_group_lookup, duckdb, pd):
         INNER JOIN non_af_works AS w
             ON a.work_id = w.work_id
         GROUP BY a.country_code, b.country_code
+        -- RETIRED country-pair filter. M8 baseline institutions are linked after one shared eligible study.
         HAVING COUNT(DISTINCT a.work_id) >= 5
         ORDER BY n_shared_works DESC
         """
@@ -8032,6 +8039,7 @@ def fig_3_c_income_group(
     plt,
     sns,
 ):
+    # RETIRED country-network analysis: this cell uses the historical figure_3d_af_nonaf_share_diff output.
     _fig_f3d, _ax_f3d_a = plt.subplots(
         1,
         1,
@@ -8133,6 +8141,7 @@ def fig_3_c_income_group(
 
 @app.cell(hide_code=True)
 def _(country_collab_edges, country_rd_strength_lookup, duckdb, pd):
+    # RETIRED country-network analysis: this cell uses the historical country_collab_edges output.
     figure_3d_rd_edges = country_collab_edges.copy()
     figure_3d_rd_edges["source_country"] = (
         figure_3d_rd_edges["source_country"].astype(str).str.strip().str.upper()
@@ -8218,6 +8227,7 @@ def _(country_collab_edges, country_rd_strength_lookup, duckdb, pd):
         INNER JOIN non_af_works AS w
             ON a.work_id = w.work_id
         GROUP BY a.country_code, b.country_code
+        -- RETIRED country-pair filter. M8 baseline institutions are linked after one shared eligible study.
         HAVING COUNT(DISTINCT a.work_id) >= 5
         ORDER BY n_shared_works DESC
         """
@@ -8294,6 +8304,7 @@ def fig_3_c(
     plt,
     sns,
 ):
+    # RETIRED country-network analysis: this cell uses the historical figure_3d_rd_pair_share output.
     _fig_f3d_rd, _ax_f3d_rd = plt.subplots(
         1,
         1,
@@ -8362,6 +8373,7 @@ def fig_3_d(
     plt,
     sns,
 ):
+    # RETIRED country-network analysis: this cell uses the historical figure_3b_centrality output.
     figure_f3d2_rd_centrality_distribution = figure_3b_centrality.merge(
         country_rd_strength_lookup[["country_code", "rd_strength_tertile"]],
         on="country_code",
@@ -8668,6 +8680,7 @@ def fig_3_d_income_group(
     sns,
     stats,
 ):
+    # RETIRED country-network analysis: this cell uses the historical figure_3b_centrality output.
     _fig_f3b_clean, _ax_f3b_clean = plt.subplots(figsize=(11.8, 7.6), dpi=320)
 
     _f3b_clean_plot = figure_3b_centrality.copy()
@@ -9240,6 +9253,7 @@ def fig_3_f(
     pd,
     plt,
 ):
+    # RETIRED country-network analysis: this cell uses the historical figure_3c3_rd_country_metrics output.
     figure_f3d4_rd_country_authorship = figure_3c3_rd_country_metrics[
         [
             "country_code",
@@ -9874,6 +9888,7 @@ def _(
     figure_3e_country_first_author_binary_base,
     math,
 ):
+    # RETIRED country-network analysis: this cell uses the historical figure_3b_centrality output.
     figure_3e_rd_strength_binary_plot = (
         figure_3e_country_first_author_binary_base.merge(
             figure_3b_centrality[["country_code", "eigenvector_centrality"]],
@@ -9945,6 +9960,7 @@ def _(
     figure_3b_centrality,
     figure_3e_country_first_author_base,
 ):
+    # RETIRED country-network analysis: this cell uses the historical figure_3b_centrality output.
     aiac_country_3d = country_adoption_lag_plot[
         ["country_code", "adoption_lag_months"]
     ].copy()
@@ -10045,6 +10061,7 @@ def _(
 
 @app.cell(hide_code=True)
 def _(aiac_country_3d, mo, pd, stats):
+    # RETIRED country-network analysis: this cell uses the historical aiac_country_3d output.
     _aiac_metrics_plot_df = aiac_country_3d.copy()
     _aiac_metrics_plot_df = _aiac_metrics_plot_df[
         _aiac_metrics_plot_df["income_group"].isin(
@@ -10154,6 +10171,7 @@ def _(aiac_country_3d, mo, pd, stats):
 
 @app.cell(hide_code=True)
 def _(aiac_country_3d, pd):
+    # RETIRED country-network analysis: this cell uses the historical aiac_country_3d output.
     aiac_radar_base = aiac_country_3d.copy()
     aiac_radar_base["income_group"] = pd.Categorical(
         aiac_radar_base["income_group"],
@@ -10198,6 +10216,7 @@ def _(aiac_country_3d, pd):
 
 @app.cell(hide_code=True)
 def _(aiac_radar_group_raw):
+    # RETIRED country-network analysis: this cell uses the historical aiac_radar_group_raw output.
     aiac_radar_raw_table = aiac_radar_group_raw[
         [
             "income_group",
@@ -10231,6 +10250,7 @@ def _(
     figure_3e_country_last_author_base,
     pd,
 ):
+    # RETIRED country-network analysis: this cell uses the historical figure_3b_centrality output.
     _aiac_rd_citations = duckdb.sql(
         """
         WITH af_works AS (
@@ -10425,6 +10445,7 @@ def _(
 
 @app.cell(hide_code=True)
 def _(aiac_country_rd_composite):
+    # RETIRED country-network analysis: this cell uses the historical aiac_country_rd_composite output.
     aiac_radar_rd_raw = (
         aiac_country_rd_composite.groupby(
             "rd_strength_tertile", as_index=False, observed=False
@@ -10487,6 +10508,7 @@ def fig_4(
     aiac_radar_rd_summary,
     plt,
 ):
+    # RETIRED country-network analysis: this cell uses the historical aiac_radar_rd_summary output.
     fig_aiac_radar_rd = plt.figure(figsize=(8.9, 8.9), dpi=320)
     ax_aiac_radar_rd = plt.subplot(111, polar=True)
 
@@ -10592,6 +10614,7 @@ def fig_5_a(
     plt,
     sns,
 ):
+    # RETIRED country-network analysis: this cell uses the historical aiac_country_rd_composite output.
     fig_aiac_bubble_rd = plt.figure(figsize=(12.2, 8.9), dpi=320)
     _aiac_rd_grid = fig_aiac_bubble_rd.add_gridspec(
         2,
@@ -10911,6 +10934,7 @@ def fig_5_b(
     pd,
     plt,
 ):
+    # RETIRED country-network analysis: this cell uses the historical aiac_radar_rd_summary output.
     _aiac_rd_bar_order = [
         "High R&D strength",
         "Middle R&D strength",
@@ -11038,6 +11062,7 @@ def _(mo):
 
 @app.cell(hide_code=True)
 def _(aiac_country_rd_composite, mo, pd):
+    # RETIRED country-network analysis: this cell uses the historical aiac_country_rd_composite output.
     aiac_gam_base = aiac_country_rd_composite.copy()
     aiac_gam_base = aiac_gam_base.dropna(
         subset=[
@@ -11160,6 +11185,7 @@ def _(aiac_country_rd_composite, mo, pd):
 
 @app.cell(hide_code=True)
 def _(aiac_country_rd_composite, mo, pd, stats):
+    # RETIRED country-network analysis: this cell uses the historical aiac_country_rd_composite output.
     aiac_piecewise_base = aiac_country_rd_composite.copy()
     aiac_piecewise_base = aiac_piecewise_base.dropna(
         subset=[
@@ -11325,6 +11351,7 @@ def fig_6_a(
     plt,
     stats,
 ):
+    # RETIRED country-network analysis: this cell uses the historical aiac_piecewise_base output.
     _fig_aiac_piecewise, _ax_aiac_piecewise = plt.subplots(
         figsize=(11.8, 7.8), dpi=260
     )
@@ -11584,6 +11611,7 @@ def fig_6_b(
     pd,
     plt,
 ):
+    # RETIRED country-network analysis: this cell uses the historical aiac_gam_base output.
     _fig_aiac_gam, _ax_aiac_gam = plt.subplots(figsize=(11.8, 7.8), dpi=260)
 
     _aiac_gam_plot_local = aiac_gam_base.sort_values(
@@ -12629,6 +12657,7 @@ def ext_fig_4(
 
 @app.cell(hide_code=True)
 def ext_fig_5(AF_CYAN, AF_PURPLE, country_collab_edges, math, nx, pd, plt):
+    # RETIRED country-network analysis: this cell uses the historical country_collab_edges output.
     _fig_f26_chord, _ax_f26_chord = plt.subplots(figsize=(14.5, 14.5), dpi=300)
 
     _f26_chord_edges = (
@@ -13127,6 +13156,7 @@ def ext_fig_7(
     plt,
     sns,
 ):
+    # RETIRED country-network analysis: this cell uses the historical figure_3d_rd_pair_matrix output.
     _figure_rd_matrix_absolute = figure_3d_rd_pair_matrix.copy()
     _figure_rd_matrix_row_share = figure_3d_rd_pair_share.copy()
     _figure_rd_matrix_col_share = _figure_rd_matrix_absolute.div(
@@ -13580,6 +13610,7 @@ def ext_fig_9(
     figure_17_group_summary,
     plt,
 ):
+    # RETIRED country-network analysis: this cell uses the historical figure_17_country_capacity output.
     fig_17_country_capacity, _fig17_axes = plt.subplots(
         3,
         1,
@@ -13746,6 +13777,7 @@ def ext_fig_10(
     plt,
     sns,
 ):
+    # RETIRED country-network analysis: this cell uses the historical figure_18_capacity_density output.
     fig_18_capacity_density, _fig18_axes = plt.subplots(
         1,
         3,
@@ -13922,6 +13954,7 @@ def supplementary_fig_1(
     plt,
     sns,
 ):
+    # RETIRED country-network analysis: this cell uses the historical country_collab_edges output.
     _np_f3_alt = __import__("numpy")
     _stats_f3_alt = __import__("scipy.stats").stats
 
@@ -13934,6 +13967,7 @@ def supplementary_fig_1(
         )
 
     _f3_alt_weighted_degree = dict(_f3_alt_graph.degree(weight="weight"))
+    # RETIRED: shared-publication count was passed as a path length in this country-level calculation.
     _f3_alt_betweenness = nx.betweenness_centrality(
         _f3_alt_graph,
         weight="weight",
@@ -13943,6 +13977,7 @@ def supplementary_fig_1(
         _f3_alt_graph,
         weight="weight",
     )
+    # RETIRED: this alternative country-level closeness measure used unweighted paths.
     _f3_alt_closeness = nx.closeness_centrality(_f3_alt_graph)
 
     _f3_alt_df = pd.DataFrame(
@@ -14252,6 +14287,7 @@ def supplementary_fig_2(
     plt,
     sns,
 ):
+    # RETIRED country-network analysis: this cell uses the historical figure_19_decile_match_rate output.
     fig_19_pca_robustness, (_ax19a, _ax19b) = plt.subplots(
         1,
         2,
@@ -14461,6 +14497,7 @@ def supplementary_fig_3_a(
     figure_20a_threshold_base,
     plt,
 ):
+    # RETIRED country-network analysis: this cell uses the historical figure_20a_best output.
     fig_20a_threshold_robustness, (_ax20a_left, _ax20a_right) = plt.subplots(
         1,
         2,
@@ -14663,6 +14700,7 @@ def supplementary_fig_3_b(
     figure_20b_threshold_base,
     plt,
 ):
+    # RETIRED country-network analysis: this cell uses the historical figure_20b_best output.
     fig_20b_threshold_robustness, (_ax20b_left, _ax20b_right) = plt.subplots(
         1,
         2,
@@ -15103,6 +15141,7 @@ def ext_table_2(country_rd_strength_lookup, mo, pd):
 
 @app.cell(hide_code=True)
 def ext_table_3(mo, pd):
+    # RETIRED country-network material: the network references in this historical summary concern the earlier analysis.
     export_table_3 = pd.DataFrame(
         [
             {
@@ -15527,6 +15566,7 @@ def ext_table_4(country_af_nonaf_compare, country_af_output_named, mo, pd):
 
 @app.cell(hide_code=True)
 def ext_table_6(figure_19_pca_base, mo):
+    # RETIRED country-network analysis: this cell uses the historical figure_19_pca_base output.
     _table_6_base = figure_19_pca_base[
         [
             "country_code",
@@ -15607,6 +15647,7 @@ def ext_table_7(
     mo,
     pd,
 ):
+    # RETIRED country-network analysis: this cell uses the historical figure_20a_piecewise_best output.
     export_table_7 = pd.DataFrame(
         [
             {
@@ -15816,6 +15857,7 @@ def _(
     math,
     pd,
 ):
+    # RETIRED country-network analysis: this cell uses the historical figure_3b_centrality output.
     figure_3c3_rd_country_metrics = figure_3b_centrality[
         [
             "country_code",
@@ -15895,6 +15937,7 @@ def _(
 
 @app.cell(hide_code=True)
 def _(aiac_country_rd_composite, pd):
+    # RETIRED country-network analysis: this cell uses the historical aiac_country_rd_composite output.
     figure_17_country_capacity = aiac_country_rd_composite[
         [
             "country_code",
@@ -15970,6 +16013,7 @@ def _(aiac_country_rd_composite, pd):
 
 @app.cell(hide_code=True)
 def _(aiac_country_rd_composite, pd):
+    # RETIRED country-network analysis: this cell uses the historical aiac_country_rd_composite output.
     figure_18_capacity_density = aiac_country_rd_composite[
         [
             "country_code",
@@ -16014,6 +16058,7 @@ def _(aiac_country_rd_composite, pd):
 
 @app.cell(hide_code=True)
 def _(aiac_country_rd_composite, pd):
+    # RETIRED country-network analysis: this cell uses the historical aiac_country_rd_composite output.
     figure_19_pca_base = aiac_country_rd_composite[
         [
             "country_code",
@@ -16050,6 +16095,7 @@ def _(aiac_country_rd_composite, pd):
 
 @app.cell(hide_code=True)
 def _(figure_19_pca_base, np, pd):
+    # RETIRED country-network analysis: this cell uses the historical figure_19_pca_base output.
     def _figure_19_local_zscore(_series):
         _vals = _series.astype(float)
         _sigma = float(_vals.std(ddof=0))
@@ -16329,6 +16375,7 @@ def _(
     np,
     pd,
 ):
+    # RETIRED country-network analysis: this cell uses the historical aiac_country_rd_composite output.
     figure_20a_threshold_base = (
         aiac_country_rd_composite[
             [
@@ -16438,6 +16485,7 @@ def _(
     np,
     pd,
 ):
+    # RETIRED country-network analysis: this cell uses the historical aiac_country_rd_composite output.
     figure_20b_threshold_base = (
         aiac_country_rd_composite[
             [

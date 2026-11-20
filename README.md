@@ -2,6 +2,8 @@
 
 Reproducibility code for the November 19, 2026 manuscript freeze. The **figure bundle alone** reproduces all 6 main figures, 10 Extended Data figures, 19 supplementary figures and the 40 displayed blocks of Supplementary Tables S1–S14. The larger bundles support checking how the plotted values were derived.
 
+**Network analyses.** The country-level network figures, five-joint-publication edge filter and country shortest-path centrality calculations in the historical notebooks are retired. To reproduce the manuscript’s institutional collaboration results, follow the [M7 and M8 implementations](docs/REPRODUCTION.md#institutional-collaboration-in-m7-and-m8).
+
 ## Start with one figure
 
 Use Python 3.11 on macOS or Linux. The tested environment used CPython 3.11.11 on Apple Silicon. Some rendering scripts also use the Poppler utilities (including pdftoppm and pdfinfo). The reference commands below assume this repository is the current directory and the downloaded Zenodo files are in a sibling directory named zenodo.
