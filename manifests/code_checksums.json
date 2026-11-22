@@ -16,8 +16,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 3615,
-    "sha256": "accca4352ea875839c6c0d0eab576f98bcd23f2bdc40a015c62a510fcc76ebb8"
+    "bytes": 6573,
+    "sha256": "67f22c0a6d74fd746c6ecb11ea470cde848bf1ebebed5113df06322cb986247d"
   },
   {
     "path": "THIRD_PARTY.md",
@@ -676,8 +676,8 @@
   },
   {
     "path": "docs/AVAILABILITY.md",
-    "bytes": 1360,
-    "sha256": "8d6882474f1c810382b34353a7f3dd5a9c13cdb04b093c1a7465318699493dff"
+    "bytes": 1498,
+    "sha256": "3956b3059595ce57b4ed6e8c1d1d36a41ec0b600ed45a620d67d3e34fe44612f"
   },
   {
     "path": "docs/DATA_PROCESSING.md",
@@ -688,6 +688,11 @@
     "path": "docs/REPRODUCTION.md",
     "bytes": 6586,
     "sha256": "624aa509f5678105195cbe916e0cb656a467b41126a6df95e87a6e33060a3815"
+  },
+  {
+    "path": "examples/country_credits.csv",
+    "bytes": 82,
+    "sha256": "7fd0af18bf0defdfa589ed9edd52629d052ebef4e304abc71ec87c8a6179c134"
   },
   {
     "path": "figures/extended/ED01/code/build_ed1.py",
@@ -2031,8 +2036,8 @@
   },
   {
     "path": "tools/check_national_points.py",
-    "bytes": 1160,
-    "sha256": "bb60cb009f4ab2cc460c658a5023b522856ed7b09bce572528e4189f0f6e24a1"
+    "bytes": 3539,
+    "sha256": "79057b943b813dfb288b2531a2835868d40a44a71fd36c89a770db28f64bbd59"
   },
   {
     "path": "tools/export_tables.py",
@@ -2071,8 +2076,8 @@
   },
   {
     "path": "verification/README.md",
-    "bytes": 2667,
-    "sha256": "3c10ad01b3dcd25218c8f825478e32347e603a4801146f9224849766d3585a66"
+    "bytes": 3594,
+    "sha256": "e7071426f9b0fe92b65b48348eceeb7947cdc948534cf2a2b60ec84b397fdad3"
   },
   {
     "path": "verification/authorship_normalization.json",
@@ -2103,6 +2108,11 @@
     "path": "verification/coverage_replay.txt",
     "bytes": 562,
     "sha256": "70afaa1274c9aa4c1c4596b0b91da0ba0a7f9e5970ae48c83f99c01d2c8d87a4"
+  },
+  {
+    "path": "verification/desktop_demo.json",
+    "bytes": 2159,
+    "sha256": "536f8ee9945c547d092c21c91d784207d0553d6ebd9e36de72508da69d9f3331"
   },
   {
     "path": "verification/document_freeze.csv",

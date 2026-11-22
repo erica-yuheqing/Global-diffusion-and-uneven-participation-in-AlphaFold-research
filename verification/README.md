@@ -10,3 +10,10 @@
 See [reviewer commands](../docs/REPRODUCTION.md) and [source-to-method mapping](../manifests/manuscript_crosswalk.csv).
 
 The [installation audit](installation.json) records file counts and archive coverage for a fresh, offline installation. The [M8 source inventory](outcomes_input_recovery.csv) covers all 14 previously referenced inputs, including the two reconstructed separately. The endpoint C++17 implementation was compiled and loaded on macOS in this release check.
+
+
+## Desktop demo and user-supplied data
+
+On 22 November 2026 we downloaded the code and figure bundle, created a fresh Python environment and timed dependency installation, archive verification and the Figure 1 redraw. A six-row synthetic CSV exercised the same national concentration calculation on user-supplied inputs. Its two annual results agreed with hand calculations. The CSV entry point also matched all four saved national point estimates for each of the five reference years (2021–2025). The paper's frozen comparison uses 227 countries. [Machine, timings and numerical results](desktop_demo.json) · [Commands and expected output](../README.md#start-with-one-figure)
+
+This was an author-side automated check. An independent colleague's installation and feedback remain pending. The five document fingerprints above refer to the original 19 November manuscript freeze, before its availability links were updated.

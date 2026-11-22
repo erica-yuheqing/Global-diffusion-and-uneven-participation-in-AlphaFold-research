@@ -1,0 +1,77 @@
+{
+  "test_date": "2026-11-22",
+  "tester": "Author-side automated run",
+  "os": "macOS 26.4.1 (25E253), arm64",
+  "hardware": "Apple M2 Max, 32 GiB RAM",
+  "python": "CPython 3.11.11",
+  "pip": "24.0",
+  "poppler": "25.06.0",
+  "code_source": "GitHub 0741f93c1764d35a36e4ae0bac561e970cfe838c plus the country CSV example in this revision",
+  "data_source": "https://doi.org/10.5281/zenodo.24369846",
+  "installation": {
+    "python_and_poppler_preinstalled": true,
+    "new_venv_seconds": 2.08,
+    "pip_install_seconds": 30.92,
+    "pip_cache": false,
+    "index": "Tsinghua PyPI mirror",
+    "pip_check": "passed",
+    "figure_bundle_download_seconds": 27.357636,
+    "figure_bundle_bytes": 12750100,
+    "bundle_sha256": "f8afad070ea7695641bbadf7790a2dabad150bdd18c3ea79465630d9fe2ad32e",
+    "figure_bundle_install_and_verify_seconds": 0.23,
+    "verified_members": 423
+  },
+  "figure_1": {
+    "id": "Fig01",
+    "returncode": 0,
+    "seconds": 39.802,
+    "pdf_outputs": [
+      "figures/Figure1_concentration_refined.pdf"
+    ],
+    "input_files_rewritten_in_work_copy": [],
+    "upstream_analysis_rerun": false,
+    "primary_pdf": "figures/Figure1_concentration_refined.pdf",
+    "status": "passed",
+    "wall_seconds": 39.83,
+    "pdf_pages": 1
+  },
+  "own_data_example": {
+    "command": "python tools/check_national_points.py --credits-csv examples/country_credits.csv",
+    "wall_seconds": 0.46,
+    "outputs": [
+      {
+        "year": 2024,
+        "countries": 3,
+        "af_gini": 0.5,
+        "af_hhi": 0.625,
+        "af_top5": 1.0,
+        "af_top10": 1.0
+      },
+      {
+        "year": 2025,
+        "countries": 3,
+        "af_gini": 0.0,
+        "af_hhi": 0.3333333333333333,
+        "af_top5": 1.0,
+        "af_top10": 1.0
+      }
+    ],
+    "hand_calculation_check": "passed",
+    "invalid_input_cases_rejected": 6,
+    "manuscript_reference_years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "manuscript_metrics_compared": [
+      "af_gini",
+      "af_hhi",
+      "af_top5",
+      "af_top10"
+    ],
+    "max_absolute_difference": 2.220446049250313e-16
+  },
+  "independent_colleague_trial": "pending"
+}
